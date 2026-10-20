@@ -24,14 +24,6 @@ This launcher was tested on a **Xiaomi Mi Box S (Gen 3)** connected to a **Samsu
 
 4. APK đã ký nằm tại: `app/build/outputs/apk/release/app-release.apk`
 
-### Thông tin ký release
-
-| Mục | Giá trị |
-|---|---|
-| Keystore | `app/release.keystore` |
-| Store password | `oklaucher2026` |
-| Key alias | `oklaucher` |
-| Key password | `oklaucher2026` |
 
 Các giá trị trên được khai báo trong `gradle.properties` (`RELEASE_STORE_FILE`, `RELEASE_STORE_PASSWORD`, `RELEASE_KEY_ALIAS`, `RELEASE_KEY_PASSWORD`) và được `app/build.gradle` đọc tự động. Có thể ghi đè tạm thời khi build, ví dụ:
 
@@ -42,7 +34,7 @@ Các giá trị trên được khai báo trong `gradle.properties` (`RELEASE_STO
 ---
 
 ## ⚡ Key Stats
-* **APK Size:** Only **~0.28 MB**
+* **APK Size:** Only **~0.4 MB**
 * **CPU:** **0.0%** at idle
 * **RAM:** **~50 MB** when wallpaper resolution is set to 2K (saving ~100 MB over standard 4K setups)
 
@@ -85,19 +77,5 @@ Enjoy!
 
 ---
 
-## 📸 Screenshots
 
-<p align="center">
-  <img src="screenshots/screenshot_2.png" width="49%" />
-  <img src="screenshots/screenshot_3.png" width="49%" />
-  <img src="screenshots/screenshot_4.png" width="49%" />
-  <img src="screenshots/screenshot_5.png" width="49%" />
-  <img src="screenshots/screenshot_6.png" width="49%" />
-  <img src="screenshots/screenshot_7.png" width="49%" />
-  <img src="screenshots/screenshot_8.png" width="49%" />
-  <img src="screenshots/screenshot_9.png" width="49%" />
-  <img src="screenshots/screenshot_10.png" width="49%" />
-  <img src="screenshots/screenshot_11.png" width="49%" />
-  <img src="screenshots/screenshot_12.png" width="49%" />
-  <img src="screenshots/screenshot_13.png" width="49%" />
 </p>
